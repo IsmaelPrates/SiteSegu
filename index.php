@@ -1,0 +1,1 @@
+echo "hello word or inicial commit ";
