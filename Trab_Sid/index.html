@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List Aprendizagem</title>
+  </head>
+  <body>
+
+    <h3>Lista de Tarefas</h3>
+    
+    <form action="cadastrar.php" method="post">
+      Tarefa: <input type="text" name="tarefa" />
+      <br />
+      <br />
+
+      Prioridade: <select name="prioridade">
+        <option value="alta" >Alta</option>
+        <option value="media">Média</option>
+        <option value="baixa">Baixa</option>
+         </select>
+      <br>
+      <br>
+
+      Prazo de finalização: <input type="date" name="prazo" />
+      <br>
+      <br>
+
+      <button type="submit">Salvar</button>
+    </form>
+    <br>
+
+  <button onclick="window.location.href='listar.php'">Ver Tarefas</button>
+
+  </body>
+</html>
